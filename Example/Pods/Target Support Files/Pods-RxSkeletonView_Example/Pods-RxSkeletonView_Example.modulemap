@@ -1,0 +1,6 @@
+framework module Pods_RxSkeletonView_Example {
+  umbrella header "Pods-RxSkeletonView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

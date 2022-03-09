@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F802A27AEB8F8001858A9 /* SkeletonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F802927AEB8F8001858A9 /* SkeletonSection.swift */; };
 		2B494911606FA04D30EA69BD /* Pods_RxSkeletonView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CD790FBBA7246593973CF9 /* Pods_RxSkeletonView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* HomeViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047F802927AEB8F8001858A9 /* SkeletonSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonSection.swift; sourceTree = "<group>"; };
 		0B04F90BD69A49490D5D30B3 /* Pods-RxSkeletonView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSkeletonView_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxSkeletonView_Tests/Pods-RxSkeletonView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		31E63F3A429BA20E4505A3CF /* Pods-RxSkeletonView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSkeletonView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxSkeletonView_Tests/Pods-RxSkeletonView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48A7115EB50DCFB77FB61C3A /* Pods_RxSkeletonView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSkeletonView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* HomeViewController.swift */,
+				047F802927AEB8F8001858A9 /* SkeletonSection.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for RxSkeletonView";
@@ -342,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* HomeViewController.swift in Sources */,
+				047F802A27AEB8F8001858A9 /* SkeletonSection.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,7 +34,7 @@ public final class RxTableViewSkeletonDataSource<Section: AnimatableSectionModel
         sectionForSectionIndexTitle: @escaping SectionForSectionIndexTitle = { _, _, index in index },
         skeletonNumberSections: @escaping SkeletonNumberSections = { _, _ in 1 },
         skeletonNumberOfRowsInSection: @escaping SkeletonNumberOfRowsInSection = { _, _, _ in UITableView.automaticNumberOfSkeletonRows },
-        skeletonReusableCellIdentifierAtIndexPath: @escaping SkeletonReusableCellIdentifierAtIndexPath,
+        skeletonReusableCellIdentifierAtIndexPath: @escaping SkeletonReusableCellIdentifierAtIndexPath = { _, _, _ in "ReusableCellIdentifier" },
         skeletonCellForRowAtIndexPath: @escaping SkeletonCellForRowAtIndexPath = { _, _, _ in nil }
     ) {
         self.skeletonNumberSections = skeletonNumberSections
